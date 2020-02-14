@@ -1,12 +1,21 @@
-.navBar{
-    color:blue;
-    font-size: 2em;
-    background-color: tan;
+.navBar {
+  color: blue;
+  font-size: 2em;
+  background-color: tan;
 }
-.navListItem{
-    padding: 10px 20px 10px 20px;
+.navListItem {
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
 }
-.mainPageBody{
-background-color: green;
-background-image:url('/mattlinenberger/src/images/KC.jpeg');
+.navListItem:visited {
+  color: black;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.mainPageBody {
+  background-color: green;
+}
+.navButton {
+  font-size: 1em;
+  background-color: gray;
 }

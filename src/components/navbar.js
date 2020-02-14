@@ -6,10 +6,10 @@ class Navbar extends React.Component {
         return (
             <div className="navBar">
                 <list className="navList">
-                    <a className="navListItem" href="test">About</a>
-                    <a className="navListItem" href="test">Skills</a>
-                    <a className="navListItem" href="test">Projects</a>
-                    <a className="navListItem" href="test">Contact</a>
+                    <button className="navButton"><a className="navListItem" href="test">About</a></button>
+                    <button className="navButton"><a className="navListItem" href="test">Home</a></button>
+                    <button className="navButton"><a className="navListItem" href="test">Skills</a></button>
+                    <button className="navButton"><a className="navListItem" href="test">Projects</a></button>
                 </list>
             </div>
         )
